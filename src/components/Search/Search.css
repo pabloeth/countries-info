@@ -1,0 +1,32 @@
+.search {
+  align-items: center;
+  background-color: var(--elements-color);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  padding: 15px 25px;
+  width: 100%;
+}
+
+.search input {
+  background-color: transparent;
+  border: 0;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.search input::placeholder {
+  color: var(--input-color);
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.feather-search {
+  stroke: var(--input-color);
+}
