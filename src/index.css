@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body, button, input {
+  font-family: 'Nunito Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+  padding: 20px;
+}
+
+.light {
+  --text-color: hsl(200, 15%, 8%);
+  --elements-color: hsl(0, 0%, 100%);
+  --bg-color: hsl(0, 0%, 98%);
+  --input-color: hsl(200, 15%, 70%);
+  --box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.dark {
+  --text-color: hsl(0, 0%, 100%);
+  --elements-color: hsl(209, 23%, 22%);
+  --bg-color: hsl(209, 26%, 17%);
+  --input-color: hsl(0, 0%, 80%);
+  --box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-header {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+}
