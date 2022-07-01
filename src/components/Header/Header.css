@@ -1,0 +1,30 @@
+.header {
+  align-items: center;
+  background-color: var(--elements-color);
+  box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+.header h1 {
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.header__button {
+  align-items: center;
+  background-color: var(--elements-color);
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 7px;
+  justify-content: center;
+}
+
+.header__button img {
+  width: 20px;
+}
